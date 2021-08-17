@@ -5,6 +5,6 @@ read b
 add=$(($a+$b))
 sub=$(($a-$b)) 
 mul=$(($a*$b))
-	# div=$(($a/$b))
-echo "$add $sub $mul"
+div=$(($a/$b))
+echo "$add $sub $mul $div "
 
